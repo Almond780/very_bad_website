@@ -9,7 +9,7 @@ Instead of consistent updates like 10,000 commits per day. I wiil update this fo
 
 I use VS coduim (the shell version of VS code) with Live Server and thats it. Its like plug and play. 
 
-For the file paths i rocemmend to just use the "Weblearn" folder file paths to make your life way easeir. 
+For the file paths i rocemmend to just use the "LearnWeb" folder file paths to make your life way easeir. 
 
 ## licenses
 
