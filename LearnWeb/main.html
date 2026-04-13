@@ -1,0 +1,54 @@
+<!-- Main -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Main</title>
+        <link rel="icon" href="images/red1.jpg">
+    </head>
+    <body>
+        <h1><div style="background-color: darkblue; color: white;">Main</div></h1>
+        <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+        title="Youtube">
+            <button>Youtube</button>
+        </a>
+        
+        <a href="Story.html"
+        title="Story.html" ><button>Story</button></a>
+        
+        <a href="music.html"
+        title="music.html"><button>Music</button></a>
+        
+        <a href="media.html"
+        title="media.html"><button>Media</button></a>
+        
+        <a href="product.html"
+        title="???"><button>Product</button></a>
+        
+        
+        <button id="playBtn">Play Sound</button>
+        
+        <script>
+        // Create an Audio object pointing to your sound file
+        const audio = new Audio("sound/chrisdjyogi-iron-rave-dark-industrial-power-421470.mp3");
+
+        // Get the button element
+        const button = document.getElementById("playBtn");
+
+        // Add click event listener
+        button.addEventListener("click", () => {
+            audio.play().catch(error => {
+                console.error("Playback failed:", error);
+                alert("Audio could not be played. Check file path and format.");
+            });
+        });
+        </script>
+        <hr>
+        
+        <img src="images/benchmark.png"
+        alt="An image of Deepseek V3 benchmark"
+        height="500">
+        <hr>
+        <a href="about.html"
+        title="???"><button>About</button></a>
+    </body>
+</html>
