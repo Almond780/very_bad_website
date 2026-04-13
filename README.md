@@ -14,3 +14,7 @@ For the file paths i rocemmend to just use the "Weblearn" folder file paths to m
 ## licenses
 
 There is **no licenses** becuase this is just a template.
+
+## Credit
+
+Check "Credit.md" for sources I used, so I can credit them.
